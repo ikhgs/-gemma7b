@@ -9,7 +9,7 @@ def home():
     if ask:
         client = Groq()
         completion = client.chat.completions.create(
-            model="llama3-8b-8192",
+            model="gemma-7b-it",
             messages=[
                 {
                     "role": "user",
